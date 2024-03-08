@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper,
+.portfolio,
+.contact-heading {
+    width: 100vw;
+    height: 100vh;
+    background-color: #231a28;
+    color: white;
+}
+
+.contact-section {
+    background-color: #231a28;
+}
+
+.menu {
+position: fixed;
+margin-left: 700px;
+}
+
+.brand {
+    position: fixed;
+ }
+
+.menu a { 
+color: #36dec2;
+text-decoration: none;
+padding: 10% 20%;
+}
+
+.menu { 
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+
+.brand span { 
+color: #36dec2;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.menu a:hover { 
+    background-color: #17101b;
+    transition: ease-in .10s;
+   border-radius: 10%;
+}
+
+.main { 
+margin: 0 auto;
+width: 100vw;
+height: 83vh;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+}
+
+h1 {
+   font-size: 3em;
+
+}
+
+span {
+  color:  #36dec2;
+}
+
+.downloadCV {
+ padding: 10px 20px;
+ background-color: #36dec2;
+ border: none;
+ border-radius: 20px;
+ margin-top: 10px;
+ cursor: pointer;
+ box-shadow: 1px 3px 11px −5px  #36dec2; 
+}
+
+.downloadCV:hover {
+background-color: white;
+box-shadow: none;
+}
+
+.main img {
+ width: 350px;
+ border: 7px solid #36dec2;
+margin-left: 200px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    display: flex;
+
+}
+
+.about img {
+    width: 450px;
+    grid-column: 1/5;
+   
+}
+
+.info {
+    width: 400px;
+    margin-left: 100px;
+}
+ 
+.info p {
+    font-size: 20px;
+}
+
+.divider {
+    height: 4px;
+    width: 65px;
+    background-color: #36dec2;
+    margin-top: 3px;
+    margin-bottom: 2em;
+}
+
+   .portfolio,
+   contact-heading {
+    width: 100vw;
+    background-color: #191c32;
+    color: #fff;
+   }
+
+   .contact-section{
+    
+    background-color: #191c32;
+    color: #fff;
+   
+   }
+   
+   .portfolio-heading {
+     width: 100vw;
+     padding: 6em;
+   }
+   
+.portfolio-heading h2{
+ font-size: 2.5em;
+}
+   
+.cajita{
+    margin: 50px;
+    width: 200px;
+    background-color:  rgba(11, 12, 12, 0.642);
+    height: 240px;
+    color: #ffffff;
+    border-radius: 19px;
+ }
+
+
+.todas{
+ display: flex;
+ }
+
+ .container-contact {
+ margin: 0 auto;
+ }
+
+ .contact-heading h2{
+    font-size: 3em;
+    padding: 2em;
+ }
+
+ .form-group {
+display: flex;
+flex-direction: column;
+width: 30vw;
+padding: 2em;
+margin-top: 2em;
+ }
+
+ .form-group input{
+ padding: 10px 20px;
+ margin-bottom: 1em;
+ background: none;
+ border: none;
+ border-bottom: 1px solid white;
+ color: #ffffff;
+ }
+
+ .contact-form h4 {
+    padding: 3px;
+ }
+
+ .form textarea{
+ background: none;
+ }
+
+ .btn-submit{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: #36dec2;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+
+ .btn-submit:hover {
+background-color: #ffffff;
+margin: 1em;
+
+ }
+
+ .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px; 
+    background-color: #17101b;
+    color:#ffffff;
+ }
+
+ .footer-content h2{
+    font-size: 3em;
+ }
+
+ .footer-content h5{
+font-size: 1.2em;
+ }
+
+ .icono ion-icon {
+    font-size: 2em;
+   width: 50px;
+   
+ }
+
+ .buttom{
+ padding: 10px 20px;
+ background-color: #36dec2;
+ border: none;
+ border-radius: 20px;
+ margin-top: 10px;
+ cursor: pointer;
+ box-shadow: 1px 3px 11px −5px  #36dec2;
+}
+
